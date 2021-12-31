@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: src/Comoponents/HttpGet.js
+  checksum: 899411f4057f0868b745eca6141800b203e2456056b12611771cc83013d15978
+version: ""
