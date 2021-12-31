@@ -4,10 +4,12 @@ import { HttpGet } from './Comoponents/HttpGet';
 import HttpPost from './Comoponents/HttpPost';
 import UseStateBasic from './Hooks/UseStateBasic';
 import UseStateWithPrevState from './Hooks/UseStateWithPrevState';
+import UseStateWithObjects from './Hooks/UseStateWithObjects';
 function App() {
   return (
     <div className="App">
-      <UseStateWithPrevState />
+      <UseStateWithObjects/>
+      {/* <UseStateWithPrevState /> */}
       {/* <UseStateBasic/> */}
       {/* <HttpPost/> */}
       {/* <HttpGet/> */}
