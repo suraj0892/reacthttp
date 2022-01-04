@@ -6,10 +6,12 @@ import UseStateBasic from './Hooks/UseStateBasic';
 import UseStateWithPrevState from './Hooks/UseStateWithPrevState';
 import UseStateWithObjects from './Hooks/UseStateWithObjects';
 import UseEffectBasic from './Hooks/UseEffectBasic';
+import UseEffectConditional from './Hooks/UseEffectConditional';
 function App() {
   return (
     <div className="App">
-      <UseEffectBasic />
+      <UseEffectConditional />
+      {/* <UseEffectBasic /> */}
       {/* <UseStateWithObjects/> */}
       {/* <UseStateWithPrevState /> */}
       {/* <UseStateBasic/> */}
