@@ -5,10 +5,12 @@ import HttpPost from './Comoponents/HttpPost';
 import UseStateBasic from './Hooks/UseStateBasic';
 import UseStateWithPrevState from './Hooks/UseStateWithPrevState';
 import UseStateWithObjects from './Hooks/UseStateWithObjects';
+import UseEffectBasic from './Hooks/UseEffectBasic';
 function App() {
   return (
     <div className="App">
-      <UseStateWithObjects/>
+      <UseEffectBasic />
+      {/* <UseStateWithObjects/> */}
       {/* <UseStateWithPrevState /> */}
       {/* <UseStateBasic/> */}
       {/* <HttpPost/> */}
