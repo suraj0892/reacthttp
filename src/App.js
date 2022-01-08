@@ -9,10 +9,12 @@ import UseEffectBasic from './Hooks/UseEffectBasic';
 import UseEffectConditional from './Hooks/UseEffectConditional';
 import UseEffectOnce from './Hooks/useEffectOnce';
 import MouseContainer from './Hooks/MouseContainer';
+import UseEffectWithIncorrectDepedency from './Hooks/UseEffectWithIncorrectDepedency';
 function App() {
   return (
     <div className="App">
-      <MouseContainer /> 
+      <UseEffectWithIncorrectDepedency/>
+      {/* <MouseContainer />  */}
       {/* <UseEffectOnce /> */}
       {/* <UseEffectConditional /> */}
       {/* <UseEffectBasic /> */}
