@@ -14,6 +14,7 @@ import UseEffectWithHttpGet from './Hooks/UseEffectWithHttpGet';
 import React from 'react';
 import UseContextExample from './Hooks/UseContextExample';
 import UseReducerBasic from './Hooks/UseReducerBasic';
+import UseCallBackEx from './Hooks/callbackhook/UseCallBackEx';
 
 export const UserContext = React.createContext("Suraj")
 export const ChannelContext = React.createContext("Channle")
@@ -21,7 +22,8 @@ export const ChannelContext = React.createContext("Channle")
 function App() {
   return (
     <div className="App">
-      <UseReducerBasic/>
+      <UseCallBackEx/>
+      {/* <UseReducerBasic/> */}
       {/* <UserContext.Provider value="Dumeel">
       <UseContextExample/>
       </UserContext.Provider> */}
