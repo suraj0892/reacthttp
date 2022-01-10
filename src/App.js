@@ -15,6 +15,7 @@ import React from 'react';
 import UseContextExample from './Hooks/UseContextExample';
 import UseReducerBasic from './Hooks/UseReducerBasic';
 import UseCallBackEx from './Hooks/callbackhook/UseCallBackEx';
+import UseMemoSample from './Hooks/UseMemoSample';
 
 export const UserContext = React.createContext("Suraj")
 export const ChannelContext = React.createContext("Channle")
@@ -22,7 +23,8 @@ export const ChannelContext = React.createContext("Channle")
 function App() {
   return (
     <div className="App">
-      <UseCallBackEx/>
+      <UseMemoSample/>
+      {/* <UseCallBackEx/> */}
       {/* <UseReducerBasic/> */}
       {/* <UserContext.Provider value="Dumeel">
       <UseContextExample/>

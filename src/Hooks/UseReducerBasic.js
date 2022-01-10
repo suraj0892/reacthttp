@@ -18,6 +18,7 @@ function UseReducerBasic() {
             
     }
 
+    // use reducer is alternate to state , it takes one function adn initial state as arg
    const [state, dispatch] = useReducer(reducer, initialCount)
 
     return (

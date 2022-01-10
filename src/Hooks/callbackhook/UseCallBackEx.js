@@ -7,6 +7,9 @@ function UseCallBackEx() {
     const [age, setAge] = useState(30)
     const [salary, setSalary] = useState(200000)
 
+    // 1. Use Call back improves performance
+    // 2. Use Call creates a memoized functionwhich cause to re render only when deps are updated
+    // 3. Use call back should be use when there are several components are rendered under parent component
     const IncSalary = useCallback(
         () => {
             setSalary(prevSal => {
