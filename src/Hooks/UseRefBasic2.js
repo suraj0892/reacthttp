@@ -7,7 +7,7 @@ function UseRefBasic2() {
 
 
     useEffect(() => {
-        
+        console.log(new Date('2022-01-10 14:00:00'))   
         intervalRef.current  = setInterval(() => {
             setTimer(prevValue => prevValue + 1)
         }, 1000)
